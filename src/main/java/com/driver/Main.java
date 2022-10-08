@@ -20,9 +20,9 @@ public class Main {
             Product p = new Product();
             int x =0,y=0,z=0;
             double a=0,b=0;
-            System.out.println(p.product(x,y));
-            System.out.println(p.product(x,y,z));
-            System.out.println(p.product(a,b));
+            p.product(x,y);
+            p.product(x,y,z);
+            p.product(a,b);
         }
 
     }
